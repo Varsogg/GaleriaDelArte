@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+
+    padding-left: 70px;
+    padding-right: 70px;
+
+    background-color: #271111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+
+}
+
+.main {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+body {
+    height: 100vh;
+    background: conic-gradient(#674646, #8A5959, #945F5F);
+}
+
+.header__logo {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo__Monalisa {
+    height: 55px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.logo__nombre {
+    font-size: 25px;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-family: "Jaro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu__nav {
+    display: flex;
+    gap: 60px;
+    font-size: 17px;
+}
+
+.menu__nav a {
+    text-decoration: none;
+    color: white;
+  
+}
+
+.main__imagesection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 140px;
+    
+}
+
+.main__imagesection img {
+    width: 300px; 
+    height: 500px; 
+    border: #BE9343 8px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 110px;
+    }
+
+
+.main__textsection {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+.textsection__mensaje {
+    width: 602px; ;
+    height:125px ;
+    position: absolute; 
+    bottom: -10px;
+    font-family: "Julius Sans One", serif;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #271111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.footer__infosection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.infosection__titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 100px;
+;
+}
+
+.infosection__list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+ 
+}
+
+
+  
